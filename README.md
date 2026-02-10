@@ -69,9 +69,24 @@ DELETE /api/technicians/{id}\
 
 ------------------------------------------------------------------------
 
-## ⚙️ Setup
 
-git clone https://github.com/harsharb05/Capstone-Project-Facility-Maintenance-Management-API\
+---
+
+## ⚙️ Setup & Run Locally
+
+### Prerequisites
+- .NET SDK
+- SQL Server
+- Visual Studio / VS Code
+- Git
+
+### Steps
+
+```bash
+git clone https://github.com/your-username/facility-management-api.git
+cd facility-management-api
+dotnet run
+
 
 ------------------------------------------------------------------------
 
