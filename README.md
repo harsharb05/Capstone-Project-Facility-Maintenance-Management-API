@@ -69,9 +69,6 @@ DELETE /api/technicians/{id}\
 
 ------------------------------------------------------------------------
 
-
----
-
 ## ⚙️ Setup & Run Locally
 
 ### Prerequisites
@@ -86,13 +83,5 @@ DELETE /api/technicians/{id}\
 git clone https://github.com/your-username/facility-management-api.git
 cd facility-management-api
 dotnet run
-
-
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-Harsha Bhatkere
-
 ------------------------------------------------------------------------
 
