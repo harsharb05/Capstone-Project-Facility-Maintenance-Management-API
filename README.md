@@ -80,8 +80,8 @@ DELETE /api/technicians/{id}\
 ### Steps
 
 ```bash
-git clone https://github.com/your-username/facility-management-api.git
-cd facility-management-api
+git clone https://github.com/harsharb05/Capstone-Project-Facility-Maintenance-Management-API.git
+cd Capstone-Project-Facility-Maintenance-Management-API
 dotnet run
 ------------------------------------------------------------------------
 
