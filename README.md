@@ -23,10 +23,9 @@ tracking maintenance activities across facilities.
 -   C#
 -   ASP.NET Core Web API
 -   MVC Architecture
--   SQL Server
+-   MySQL
 -   REST API
 -   Swagger
--   Postman
 -   Git
 
 ------------------------------------------------------------------------
@@ -46,38 +45,41 @@ tracking maintenance activities across facilities.
 ### Facility
 
 GET /api/facilities\
+GET /api/facilities/{id}\
 POST /api/facilities\
 PUT /api/facilities/{id}\
-DELETE /api/facilities/{id}
+DELETE /api/facilities/{id}\
 
 ### Requests
 
 GET /api/requests\
+GET /api/requests/{id}\
+GET /api/facilities/{facilitiyId}/requests\
 POST /api/requests\
 PUT /api/requests/{id}\
-DELETE /api/requests/{id}
+DELETE /api/requests/{id}\
 
 ### Technicians
 
 GET /api/technicians\
+GET /api/technicians/{id}\
 POST /api/technicians\
 PUT /api/technicians/{id}\
-DELETE /api/technicians/{id}
+DELETE /api/technicians/{id}\
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Setup
 
-git clone https://github.com/your-username/facility-management-api.git\
-cd facility-management-api\
+git clone https://github.com/harsharb05/Capstone-Project-Facility-Maintenance-Management-API\
+cd Capstone-Project-Facility-Maintenance-Management-API\
 dotnet run
 
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Author
 
-Your Name
+Harsha Bhatkere
 
 ------------------------------------------------------------------------
 
-Educational & Portfolio Use
