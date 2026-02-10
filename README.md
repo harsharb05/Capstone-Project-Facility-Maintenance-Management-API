@@ -72,7 +72,6 @@ DELETE /api/technicians/{id}\
 ## ⚙️ Setup
 
 git clone https://github.com/harsharb05/Capstone-Project-Facility-Maintenance-Management-API\
-cd Capstone-Project-Facility-Maintenance-Management-API\
 dotnet run
 
 ------------------------------------------------------------------------
